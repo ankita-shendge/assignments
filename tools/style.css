@@ -326,6 +326,7 @@ border-bottom-right-radius: 10px;
   }
   
   .fa-angle-down {
+    float :right;
     padding-right: 8px;
   }
   
