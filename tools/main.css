@@ -35,7 +35,7 @@
 }
 
 .footer-box {
-  height:60px;
+  height: 60px;
   background-color: rgb(186, 186, 186);
 }
 
@@ -77,8 +77,15 @@
   background-color: #fd9b05;
 }
 
+.back-green {
+  background-color: green;
+}
+
 .back-grey {
   background-color: #292828;
+}
+.back-red {
+  background-color: rgb(223, 55, 55);
 }
 
 .back-light-grey {
@@ -605,6 +612,10 @@
 .featured-card {
   padding: 11px;
 }
+
+.left-featured {
+  position: relative;
+}
 .left-featured img {
   width: 227.5px;
   height: 221px;
@@ -650,6 +661,24 @@
 .row-card {
   display: flex;
   padding: 1px 15px;
+}
+.new-button {
+  position: absolute;
+  border: none;
+  top: 6px;
+  left: 6px;
+  padding: 5px 5px;
+  font-size: 10px;
+  border-radius: 3px;
+}
+.sale-button {
+  top: 6px;
+  right: 6px;
+  position: absolute;
+  border: none;
+  padding: 5px 5px;
+  font-size: 10px;
+  border-radius: 3px;
 }
 
 /* addvertisement card */
