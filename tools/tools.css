@@ -90,7 +90,7 @@
 
 .grey-bottom {
   background-color: rgb(238, 238, 238);
-  position: absolute; 
+  position: absolute;
   top: 1810px;
   bottom: 0;
   width: 100%;
@@ -351,7 +351,6 @@
 
 /* container-right */
 
-
 /* search bar */
 .container-right {
   width: 752px;
@@ -410,16 +409,14 @@
 
 /* carousal */
 
-
-.main-container{
+.main-container {
   margin-top: 25px;
-  margin-left:25px;
+  margin-left: 25px;
 }
 
 .carousel-wrapper {
   position: relative;
   display: block;
-  
 }
 .img-container img {
   width: 728px;
@@ -445,15 +442,15 @@
 .text-container {
   position: absolute;
   text-align: right;
-  right: 20px;
-  margin-top: -239px;
+  right: 24px;
+  margin-top: -226px;
 }
 
 .angle-right {
   position: absolute;
   font-size: 18px;
   color: rgb(252, 252, 252);
-  right:0;
+  right: 0;
   top: 110px;
 }
 
@@ -491,10 +488,9 @@
   padding: 8px;
 }
 
-
 /* card-box */
 
-.card-box{
+.card-box {
   display: flex;
   margin-top: 21px;
 }
@@ -503,7 +499,6 @@
   padding-right: 22px;
   padding-bottom: 22px;
 }
-
 
 .card-inner img {
   width: 145px;
@@ -534,17 +529,16 @@
 
 /* featured bar */
 
-.featured-bar{
+.featured-bar {
   margin-top: 5px;
   padding: 7px;
 }
 
 /* featured-cards */
-.featured-card-box{
+.featured-card-box {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  
 }
 .featured-card {
   margin-top: 25px;
@@ -616,7 +610,7 @@
 
 /* bottom  box */
 
-.bottom-part{
+.bottom-part {
   margin-top: 60px;
 }
 
@@ -638,6 +632,7 @@
 .left-part img {
   width: 110px;
   height: 100px;
+  padding-left: 5px;
   margin-top: 4px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
@@ -657,7 +652,7 @@
   font-weight: 600;
 }
 
-.row{
+.row {
   margin-top: 25px;
 }
 
@@ -668,8 +663,8 @@
   margin-top: 25px;
 }
 
-.col-2{
-  margin-right:25px ;
+.col-2 {
+  margin-right: 25px;
 }
 
 .col-2 li {
@@ -696,9 +691,9 @@
 }
 
 /* footer */
-.grey-footer{
+.grey-footer {
   background-color: rgb(176, 176, 176);
-  position: absolute; 
+  position: absolute;
   top: 2200px;
   bottom: 0;
   width: 100%;
