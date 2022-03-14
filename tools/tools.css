@@ -90,11 +90,8 @@
 
 .grey-bottom {
   background-color: rgb(238, 238, 238);
-  position: absolute;
-  top: 1810px;
+  position: absolute; 
   bottom: 0;
-  width: 100%;
-  height: 400px;
   z-index: 0;
 }
 
@@ -610,9 +607,7 @@
 
 /* bottom  box */
 
-.bottom-part {
-  margin-top: 60px;
-}
+
 
 .cards-box {
   display: flex;
@@ -691,21 +686,21 @@
 }
 
 /* footer */
-.grey-footer {
-  background-color: rgb(176, 176, 176);
-  position: absolute;
-  top: 2200px;
-  bottom: 0;
-  width: 100%;
-  height: 50px;
-  z-index: 0;
-}
+
 .footer {
   text-align: left;
-  margin-top: 40px;
   font-size: 10px;
+  background-color: grey;
+  padding: 20px;
 }
 
 .footer span {
   font-size: 6px;
 }
+
+.bottom-part{
+  background: #edeaea;
+  padding: 20px;
+  margin-top: 20px;
+}
+
