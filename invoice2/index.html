@@ -8,7 +8,17 @@
       src="https://kit.fontawesome.com/840d1e77bc.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 900px)"
+      href="style.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 900px)"
+      href="responsive.css"
+    />
+
     <title>Invoice</title>
   </head>
 
@@ -69,39 +79,42 @@
             </div>
           </div>
         </div>
-        <table>
-          <tr>
-            <th class="th-item">ITEM</th>
-            <th class="th-qty">QTY</th>
-            <th class="th-rate">RATE</th>
-            <th class="th-ttl">TOTAL</th>
-            <th class="th-action">ACTION</th>
-          </tr>
-          <tr>
-            <td>
-              <input class="item-box" type="text" placeholder="Item name" />
-            </td>
-            <td>
-              <input class="qty-box" type="number" placeholder="0" />
-            </td>
-            <td>
-              <input class="rate-box" type="text" placeholder="$0.00" />
-            </td>
-            <td>
-              <input class="total-box" type="text" placeholder="$0.00" />
-            </td>
-            <td>
-              <button class="action-box">
-                <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
-              </button>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <input class="item-box" type="text" placeholder="Description" />
-            </td>
-          </tr>
-        </table>
+        <div class="scrollit">
+          <table>
+            <tr>
+              <th class="th-item">ITEM</th>
+              <th class="th-qty">QTY</th>
+              <th class="th-rate">RATE</th>
+              <th class="th-ttl">TOTAL</th>
+              <th class="th-action">ACTION</th>
+            </tr>
+            <tr>
+              <td>
+                <input class="item-box" type="text" placeholder="Item name" />
+              </td>
+              <td>
+                <input class="qty-box" type="number" placeholder="0" />
+              </td>
+              <td>
+                <input class="rate-box" type="text" placeholder="$0.00" />
+              </td>
+              <td>
+                <input class="total-box" type="text" placeholder="$0.00" />
+              </td>
+              <td>
+                <button class="action-box">
+                  <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input class="item-box" type="text" placeholder="Description" />
+              </td>
+            </tr>
+          </table>
+        </div>
+       
         <div class="tax-box">
           <div class="left-part">
             <button>Add item</button>
