@@ -13,7 +13,7 @@ body {
 
 .wrapper-box {
   background-color: #f2f3f7;
-  margin: 30px auto;
+  margin:0px auto;
   border-radius: 15px;
   display: block;
   width: 70%;
@@ -23,6 +23,7 @@ body {
 .container-left {
   background-color: white;
   width: 80%;
+  margin:0px auto;
   padding: 30px;
   border-radius: 15px;
   position: relative;
@@ -30,6 +31,7 @@ body {
 
 .container-right {
   width: 80%;
+  margin:0px auto;
   padding: 30px;
   border-radius: 15px;  position: relative;
 }
