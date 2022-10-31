@@ -314,6 +314,11 @@
     margin: 20px 0px;
   }
 
+  .card-box-afters-visible {
+    display: block;
+    visibility: visible;
+  }
+
   .card-img img {
     width: 600px;
     padding: 12px 0px 5px 0px;
